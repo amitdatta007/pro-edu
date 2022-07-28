@@ -89,20 +89,21 @@
                     </div>
                 </div>
                 <div class="d-flex justify-content-center">
-                    <div class="btn btn-primary fw-bold">See more Courses</div>
+                    <div class="btn btn-primary fw-bold p-3">See more Courses</div>
                 </div>
             </div>
         </section>
         <!-- populer courses end  -->
+
       <!-- explore learning platform area start  -->
-        <section class="container">
+        <section class="container-fluid container-lg my-5">
             <div class="row g-0 bg-secondary">
-                <div class="col-12 col-md-5">
+                <div class="col-12 col-sm-5">
                     <img class="w-100 h-100" src="./images/working.png" alt="">
                 </div>
-                <div class="col-12 col-md-7">
-                    <div class="p-4">
-                        <h2>Explore the Online Learning platform</h2>
+                <div class="col-12 col-sm-7 d-flex justify-content-center">
+                    <div class="p-4 d-flex flex-column gap-3 justify-content-center">
+                        <h1>Explore the Online Learning platform</h1>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, officiis? Atque, dolore, placeat beatae ad natus ea voluptates obcaecati in earum consequatur veniam eaque iure? Praesentium maxime aliquam aperiam laborum, saepe eveniet corporis quisquam, ipsam laboriosam illo, minus mollitia assumenda.</p>
                         
                         <div class="d-flex gap-5">
@@ -120,7 +121,7 @@
                             </div>
                         </div>
                         <div>
-                            <button class="btn btn-primary">Read More</button>
+                            <button class="btn btn-primary p-3 fw-bold">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -128,7 +129,56 @@
         </section>
         <!-- explore learning platform area end  -->
 
-
+        <!-- Register section start -->
+        <section class="my-5 container-fluid container-lg">
+            <div class="d-flex flex-column flex-lg-row align-items-center justify-content-between p-3 p-sm-5 bg-secondary gap-3 rounded">
+                <div class="text-center text-lg-start">
+                    <h3 class="fw-bolder">Ready to join?</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt aliquam. Lorem ipsum amet.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum dolor.</p>
+                </div>
+                <div>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary fw-bold p-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Launch demo modal
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Please Register</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <form>
+                                    <div class="modal-body">
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                            <input required type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                                            <input required type="password" class="form-control" id="exampleInputPassword1">
+                                        </div>
+                                        <div class="mb-3 form-check">
+                                            <input required type="checkbox" class="form-check-input" id="exampleCheck1">
+                                            <label class="form-check-label" for="exampleCheck1">Accept <a href="">Terms & Conditons</a></label>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="submit" class="btn btn-primary">Register</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Register section end -->
+        
     </main>
 
    
