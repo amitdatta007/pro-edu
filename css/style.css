@@ -1,5 +1,27 @@
-.courses,.exp-plat,.regi-area,.success-area,.Feedback-area,.question-area,.company-area{
+.courses,.exp-plat,.regi-area,.success-area,.Feedback-area,.question-area,.company-area,.banner{
     margin-bottom: 100px;
+}
+.caro-inner{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+}
+.banner-title{
+    font-size: 5rem;
+    font-weight: 700;
+}
+.banner-info{
+    font-size: 1.4rem;
+}
+.banner-btn{
+    background-color: #289BDE;
+    color: #fff;
+}
+.banner-btn:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #289BDE;
 }
 .more-btn{
     background-color: #289BDE;
@@ -36,4 +58,32 @@
 .social-icon:hover{
     background-color: #222;
     color: #289BDE;
+}
+
+@media screen  and (max-width:576px){
+    .banner-title{
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+    .banner-info{
+        font-size: 0.8rem;
+    }
+}
+@media screen and (min-width:576px)  and (max-width:768px){
+    .banner-title{
+        font-size: 2.4rem;
+        font-weight: 500;
+    }
+    .banner-info{
+        font-size: 1rem;
+    }
+}
+@media screen and (min-width:768px)  and (max-width:992px){
+    .banner-title{
+        font-size: 3.6rem;
+        font-weight: 700;
+    }
+    .banner-info{
+        font-size: 1.2rem;
+    }
 }
