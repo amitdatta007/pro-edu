@@ -11,14 +11,42 @@
 <body>
     <!-- header part start here  -->
     <header class="container">
-
+        <!-- navbar start here  -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand fw-bolder fs-3" href="#">Pro Edu</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav w-100 d-flex justify-content-end align-items-center gap-1 gap-lg-4 text-center fw-bold fs-6">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#courses">Courses</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#success">Success</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link btn more-btn p-2" href="#register">Register</a>
+                      </li> 
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- navbar end here  -->
         
     </header>
     <!-- header part end here  -->
 
     <main>
         <!-- populer courses start  -->
-        <section class="courses">
+        <section class="courses" id="courses">
             <div class="container">
                 <div class="text-center text-dark my-4">
                     <h2 class="fw-bolder">Discover our Popular</h2>
@@ -98,7 +126,7 @@
         <!-- populer courses end  -->
 
       <!-- explore learning platform area start  -->
-        <section class="container-fluid container-lg exp-plat">
+        <section class="container-fluid container-lg exp-plat" id="about">
             <div class="row g-0 explore-area">
                 <div class="col-12 col-sm-5">
                     <img class="w-100 h-100" src="./images/working.png" alt="">
@@ -132,7 +160,7 @@
         <!-- explore learning platform area end  -->
 
         <!-- Register section start -->
-        <section class="container-fluid container-lg regi-area">
+        <section class="container-fluid container-lg regi-area" id="register">
             <div class="d-flex flex-column flex-lg-row align-items-center justify-content-between px-3 px-sm-5 register gap-3 rounded">
                 <div class="text-center text-lg-start text-light d-flex flex-column gap-2">
                     <h3 class="fw-bolder">Ready to join?</h3>
@@ -181,10 +209,10 @@
         <!-- Register section end -->
 
         <!-- successfull student area start  -->
-        <section class="container-fluid container-lg success-area">
+        <section class="container-fluid container-lg success-area" id="success">
             <div class="my-4">
-                <h3 class="fw-bolder">Meet our successfull</h3>
-                <h3 class="fw-bolder">Students</h3>
+                <h2 class="fw-bolder">Meet our successfull</h2>
+                <h2 class="fw-bolder">Students</h2>
                 <p>There is some profile of our successfull student.</p>
                 <p>Visit there profile to know what they learn.</p>
             </div>
