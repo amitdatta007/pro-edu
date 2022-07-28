@@ -1,0 +1,39 @@
+.courses,.exp-plat,.regi-area,.success-area,.Feedback-area,.question-area,.company-area{
+    margin-bottom: 100px;
+}
+.more-btn{
+    background-color: #289BDE;
+    color: #fff;
+}
+.more-btn:hover{
+    background-color: #fff;
+    color: #289BDE;
+}
+.explore-area{
+    background-color: #F4FAFD;
+}
+.register{
+    background-color: #289BDE;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.regi-btn{
+    background-color: #fff;
+    color: #289BDE;
+}
+.regi-btn:hover{
+    background-color: #289BDE;
+    color: #fff;
+}
+.footer{
+    background-color: #000;
+    padding: 4rem;
+}
+.social-icon{
+    background-color: #222;
+    color: #fff;
+}
+.social-icon:hover{
+    background-color: #222;
+    color: #289BDE;
+}
